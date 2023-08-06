@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opbouw</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../home_page.css">
+    <link rel="stylesheet" href="../aside.css">
+    <link rel="stylesheet" href="../other_pages.css">
+  
+</head>
+
+<body style="overflow: scroll; color: rgb(7, 7, 182)"
+ontouchstart="touchStart(event)"
+ontouchmove="touchMove(event)"
+ontouchend="touchEnd()">
+
+<!-- Copy in EVERY additional pages everything from here till "the main part" (line 137 ?) -->
+
+<div class="mobile_header">
+  <li id="proefles" class="nav_question">
+    <a href="#">Proefles?</a></li>
+  <li class="nav_icons phone_icon">
+    <a href="tel:+31615074940"> <img src="../images/phone_icon.png" /></a></li>
+  <li class="nav_icons whatsapp_icon">
+    <a href="https://api.whatsapp.com/send?phone=31615074940" target="_blank"> <img src="../images/whatsapp_icon.png" /></a></li>
+
+  <li class="nav_icons email_icon">
+    <a href="mailto:diederickv@gmail.com"><img src="../images/email_icon.png" /></a></li>
+  <li class="nav_icons">
+    <a href="#" id="menuBtn"><img src="../images/hamburger_menu.png" /></i></a></li>
+</div>
+
+<!-- Start of side-menu  -->
+<aside class="hdn-side">
+  
+	<div class="hdn-cont">
+      <ul>
+          <li class="mark" > 
+              <span class="home_sidemenu"><a> Home </a></span>
+              <span class="close_sidemenu"><a> &times; </a></span>
+          </li>
+          <li class="ulLi">
+              <a href="#" class="feat-btn">De rijles <span class="firstMenuPackOpener"><i class='bx bxs-down-arrow' ></i></span></a>
+              <ul class="feat-show">
+                <li><a href="../html_pages/opbouw.html"> Opbouw </a></li>
+                <li><a href="../html_pages/hoeveel_lessen.html"> Hoeveel lessen </a></li>
+                <li><a href="../html_pages/doelen.html"> Doelen </a></li>
+                <li><a href="../html_pages/deeltoets.html"> Deeltoets </a></li>
+                <li><a href="../html_pages/examen.html"> Examen </a></li>
+                <li><a href="../html_pages/RIS.html"> R.I.S. </a></li>
+              </ul>
+          </li>
+          <li><a href="../html_pages/simulator.html"> De simulator </a></li>
+          <li class="ulLi"> 
+              <a href="#" class="serv-btn">De lesversneller <span class="secondMenuPackOpener"><i class='bx bxs-down-arrow' ></i></span></a>
+              
+              <ul class="serv-show">
+                <li><a href="../html_pages/versneller.html">Documenten </a></i></li>
+                <li><a href="../html_pages/dashboard.html">Dashboard </a></li>
+                <li><a href="../html_pages/interieur.html">Interieur </a></li>
+                <li><a href="../html_pages/verlichting.html">verlichting </a></li>
+                <li><a href="../html_pages/wissers.html">Wissers </a></li>
+                <li><a href="../html_pages/Spiegels.html"> Spiegels </a></li>
+                <li><a href="../html_pages/Tomtom.html"> TomTom </a></li>
+                <li><a href="../html_pages/Banden.html">Banden </a></li>
+                <li><a href="../html_pages/motorkap.html">De motor </a></li>
+              </ul>
+          </li>
+
+          <li class="ulLi"> 
+              <a href="#" class="theory-btn">Theorie <span class="thirdMenuPackOpener"><i class='bx bxs-down-arrow' ></i></span></a>
+              
+              <ul class="theory-show">
+                <li><a href="boeken.html"> Boeken</a></li>
+                
+                <li><a href="https://www.cbr.nl/nl/mijncbr/inloggen-op-mijn-cbr.htm?orgurl=https%3A%2F%2Fwww.cbr.nl%2Fnl%2Fmijncbr%2Freserveren.htm">Reserveren </a></li>
+              </ul>
+          </li>
+          <li> <a href="../html_pages/tarieven.html">De tarieven </a></li>
+          <li>  <a href="../html_pages/contact.html">Contact</a> </li>
+      </ul>
+  </div>
+</aside>
+
+<!-- End of side-menu  -->
+
+<!-- Additional layers  -->
+<div class="blurCompletely"></div>
+<div class="blur"></div>
+<div class="blur2"></div>
+
+<figure class="aside0"></figure>
+
+<!-- topBar for desktop  -->
+
+<header>
+  <div class="desktop_logo">
+    <li > <a href="index.html"> <img src="../images/logo.png" alt=""></a></li>
+  </div>
+  <nav class="fancy-link">
+          <li class="proefless">Proefles?</li>
+          <li class="proefless">Bel/app: 06-15074940</li>
+          <li class="startsAt_880">Of mail: info@team-rijopleiding.nl</li>
+  </nav>
+  <div class="end">
+      <a href="#" id="dmenuBtn"><i class='bx bx-menu-alt-right'></i></a>
+  </div>
+</header>
+
+
+<style type="text/css">
+	.photo_for_each_page {
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+</style>
+
+<div class="other_pages">
+
+  <div class="photo_for_each_page">
+    <img src="../images/opbouw.gif" /> 
+  </div>
+
+ <div class="sarlavha_with_bg">
+  <div class="alleteksten3">
+	<table width="100%" border="0px" cellpadding="0" cellspacing="0"> <tr>
+      <td width="30%" align="left" valign="middle"><a href="RIS.html"> <div class="vorige" > </div></a> </td>
+      <td width="40%" valign="middle" align="center"><h5>Opbouw</h5></td>
+      <td width="30%"  valign="middle" align="right"> <a href="hoeveel_lessen.html"> <div class="volgende" > </div></a> 
+	</td>
+   </tr>
+ </table>
+</div>
+</div>
+
+  <div class="flex_container">
+    <div class="flex_text">
+     
+      <h6>De opbouw van de rijopleiding</h6>
+        <p> De rijopleiding is op maat gemaakt met een vaste structuur: <br>
+            De basis van het auto rijden: <br>
+            Het wegrijden en stoppen.<br>
+            Op en terugschakelen.<br>
+            Vertragen en versnellen.<br>
+            Rijden op rechte en bochtige wegen.</p>
+		<p><br>
+</p>
+
+
+      <h6>Bijzondere verrichtingen:</h6>
+        <p> Parkeren:<br>
+            -haaks vooruit in smal/middel/groot vak aan beide zijden.<br>
+            -haaks achteruit in smal/middel/groot vak aan beide zijden.<br>
+            -schuin (visgraat) aan beide zijden.<br>
+            -File parkeren achteruit.<br>
+            -File parkeren vooruit.<br>
+            -Correctie kunnen toepassen.
+        <br>
+        Omkeren:<br>
+            -3 keer steken.<br>   
+            -1/2 draai.
+            <br>
+            -Bochtje achteruit.<br>
+            -Recht achteruit.<br>
+            -Hellingproef. </p>
+      </div>
+      <p><br></p>
+      <div class="flex_text">
+	<h6> Eenvoudige verkeersopgave BIBEKO:</h6> <p>
+-Voorrangskruispunten.
+-Samengestelde kruispunten.
+-Gelijkwaardige kruispunten.
+-Uitritten.
+-Zebrapad. (V.O.P)Eenvoudige verkeersopgave BIBEKO:
+-Voorrangskruispunten.
+-Samengestelde kruispunten.
+-Gelijkwaardige kruispunten.
+-Uitritten.
+-Zebrapad. (V.O.P)Eenvoudige verkeersopgave BIBEKO:
+-Voorrangskruispunten.
+-Samengestelde kruispunten.
+-Gelijkwaardige kruispunten.
+-Uitritten.
+-Zebrapad. (V.O.P)<br>
+</p><br>
+<br><p><br>
+</p>
+
+        <h6>Complexe verkeersopgaven BUBEKO: </h6>
+            <p>	-Grote kruispunten.<br>
+                -Voorsorteerstroken.<br>
+                -Grote opstelbermen tussen de verkeersstromen.<br>
+                -Turbo-rotonde.<br>
+                -Ovonde.<br>
+                -Largas.<br>
+                -Dubbele-rotonde.<br>
+                -Invoegen op de snelweg.<br>
+                -Uitrijden van de snelweg.<br>
+                -Berijden van de snelweg.<br>
+                -Knooppunten.<br>
+                -Tapers.<br>
+                -Weefvakken.<br>
+                -Inhalen.<br>
+                -File rijden.</p><p><br>
+</p>
+        </div>
+  </div>
+
+  <div class="flex_container middle_text"> 
+
+    <div class="flex_text">
+      <h6>Examen/Toets training:</h6>
+      <p>
+      Zelfstandig route rijden aan de hand van aanwijzingen.
+      <br><br>
+      Zelfstandig route rijden m.b.v. TomTom.	
+      <br><br>
+      Zelfstandig route rijden door het volgen van de borden.
+      <br><br>
+      -Deeltoets 1, module 1 R.I.S. bij instructeur.
+      <br><br>
+      -Deeltoets 2, module 1 + 2 R.I.S. bij instructeur.
+      <br><br>
+      -Deeltoets 3/Tussentijdse toets, module 1 + 2 + 3 R.I.S. bij instructeur of CBR.
+      <br><br>
+      -Deeltoets 4/Examen, module 1 + 2 + 3 + 4 R.I.S. bij CBR.
+      </p>
+    </div>
+
+
+    <div class="flex_text">
+      <p></p>
+      <p>
+      Deeltoets 1 vind plaats wanneer jij de training van het voertuig hebt gehad en je al een beetje staande weet te houden op kruispunten. Deze wordt afgenomen door je rijinstructeur.
+      <br><br>
+      Deeltoets 2 vind plaats na de volledige training van de bebouwdekom. Je wordt dan op examenniveau getest over de voertuigbediening, de bijzondere verrichtingen en de volledige bebouwdekom.
+      <br>
+      Deze wordt afgenomen door je rijinstructeur.
+      <br> <br>
+      Deeltoets 3/Tussentijdse toets kan je bij de instructeur doen als zijnde een proefexamen of bij het CBR.
+      <br><br>
+      Deeltoets 4/Examen. Deze wordt afgenomen door het CBR.</p>
+    </div>
+  </div>
+
+</div>
+
+  <!-- copy everything from here till the end of script tags  -->
+  
+ 
+
+  <div class="black">
+    <p>@Copyright belongs to Shym-Tech, 2022. 
+      <a href="mailto:abekeasian@gmail.com">Contact email: abekeasian@gmail.com</a>
+    </p>
+  </div>
+
+    <script src="../js/expand_submenus.js"></script>
+    <script src="../js/swipeLeftToOpenSidemenu.js"></script>
+    <script src="../js/openAndClose_sidemenu.js"></script>
+   
+    <!-- <script>
+      const pageWidth = document.querySelector("#screen_width");
+      window.onresize = function reportWindowSize() {
+        pageWidth.textContent = `${window.innerWidth} px`;
+        };
+    </script> -->
+    
+</body>
+</html>
